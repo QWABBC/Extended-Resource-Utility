@@ -1,5 +1,3 @@
-# Unciv-mod-example
+# Extended-Resource-Utility
 
-An example mod for Unciv, that adds one new Civilization.
-
-For information on how to build and use mods, please refer to [the setup instructions](https://yairm210.github.io/Unciv/Modders/Making-a-new-Civilization/)
+An Extension mod focusing on adding more utility to Strategic Resource. Still on Working, Focusing to Building and One Resource.
