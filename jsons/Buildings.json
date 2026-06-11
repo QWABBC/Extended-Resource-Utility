@@ -1,25 +1,181 @@
 [
-	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+ //Horse
+  {
+    "name": "Horse Ranch",
+    "cost": 100,
+    "food": 3,
+    "percentStatBonus": {"food": 5},
+    "requiredTech": "Animal Husbandry",
+    "requiredResource": "Horses",
+    "maintenance": 1,
+    "uniques": [
+      "[+1 Gold] from [Pasture] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Horse Market",
+    "gold": 3,
+    "requiredTech": "Horseback Riding",
+    "specialistSlots": {"Merchant": 1},
+    "requiredBuilding": "Market",
+    "requiredResource": "Horses",
+    "hurryCostModifier": 5,
+    "uniques": [
+      "[+1 Gold] from each Trade Route",
+      "[+1 Food] from [Horses] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Stable Extension",
+    "cost": 175,
+    "food": 3,
+    "gold": 2,
+    "maintenance": 3,
+    "requiredTech": "Horseback Riding",
+    "requiredBuilding": "Stable",
+    "requiredResource": "Horses",
+    "uniques": [
+      "[+2 Food] from every [Stable] <in this city>"
+    ]
+  },
+  {
+    "name": "Land Breeding Incubator",
+    "food": 4,
+    "percentStatBonus": {"food": 10},
+    "requiredTech": "Horseback Riding",
+    "requiredNearbyImprovedResources": ["Horses"],
+    "hurryCostModifier": 20,
+    "uniques": [
+      "Provides [3] [Horses]",
+      "[+1 Food] per [4] population [in this city]"
+    ]
+  },
+  {
+    "name": "Horse Pulled Wagon",
+    "cost": 200,
+    "happiness": 3,
+    "percentStatBonus": {"gold": 10},
+    "requiredTech": "Currency",
+    "requiredResource": "Horses",
+    "uniques": [
+      "[+1 Gold] from each Trade Route",
+      "[+1 Production] from every [Road]",
+      "[+1 Production] from every [Railroad] <after discovering [Railroads]>"
+    ]
+  },
+  {
+    "name": "Equestrian Center",
+    "culture": 6,
+    "specialistSlots": {"Artist": 1},
+    "maintenance": 2,
+    "requiredTech": "Civil Service",
+    "requiredNearbyImprovedResources": ["Horses"],
+    "requiredResource": "Horses",
+    "hurryCostModifier": 15,
+    "uniques": [
+      "[+3]% [Culture] from Trade Routes",
+      "[+1 Culture] from [Pasture] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Grand Stable",
+    "cost": 320,
+    "production": 3,
+    "happiness": 1,
+    "percentStatBonus": {"production": 5},
+    "maintenance": 3,
+    "requiredTech": "Military Science",
+    "requiredBuilding": "Stable Extension",
+    "requiredResource": "Horses",
+    "uniques": [
+      "[+10]% Production when constructing [Mounted] units [in this city]",
+      "[-2]% construction time for [All] improvements"
+    ]
+  },
+  {
+    "name": "Royal Breeding Ground",
+    "food": 7,
+    "gold": 2,
+    "requiredTech": "Military Science",
+    "hurryCostModifier": 15,
+    "uniques": [
+      "[+1 Food] [in all cities]",
+      "Provides [4] [Horses]",
+      "Limited to [5] per Civilization"
+    ]
+  },
+  {
+    "name": "Mounted Parade Plaza",
+    "cost": 240,
+    "culture": 3,
+    "happiness": 4,
+    "maintenance": 3,
+    "requiredTech": "Chivalry",
+    "requiredResource": "Horses",
+    "uniques": [
+      "[+1 Happiness] [in all cities]"
+    ]
+  },
+  {
+    "name": "Horse Supply Depot",
+    "cost": 250,
+    "production": 4,
+    "percentStatBonus": {"food": 10},
+    "maintenance": 5,
+    "requiredTech": "Chivalry",
+    "requiredNearbyImprovedResources": ["Horses"],
+    "requiredResource": "Horses",
+    "uniques": [
+      "[5]% Food is carried over after population increases [in this city]",
+      "[+1 Production] from [Pasture] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Mounted Guard Post",
+    "production": 3,
+    "happiness": 2,
+    "cityStrength": 7,
+    "cityHealth": 12,
+    "maintenance": 8,
+    "requiredTech": "Gunpowder",
+    "requiredBuilding": "Stable Extension",
+    "requiredResource": "Horses",
+    "hurryCostModifier": 25,
+    "uniques": [
+      "[-3]% Culture cost of natural border growth [in this city]",
+      "[+2 Gold] from [Pasture] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Imperial Riding School",
+    "cost": 340,
+    "culture": 4,
+    "percentStatBonus": {"food": 12},
+    "maintenance": 3,
+    "requiredTech": "Military Science",
+    "requiredBuilding": "Mounted Guard Post",
+    "requiredResource": "Horses",
+    "uniques": [
+      "New [Mounted] units start with [15] XP [in this city]",
+      "[+1 Culture] from each Trade Route"
+    ]
+  },
+  {
+    "name": "Horse Genetical Breeding",
+    "food": 3,
+    "science": 2,
+    "happiness": 2,
+    "percentStatBonus": {"food": 15},
+    "specialistSlots": {"Scientist": 3},
+    "maintenance": 7,
+    "requiredTech": "Biology",
+    "requiredBuilding": "Royal Breeding Ground",
+    "hurryCostModifier": 50,
+    "uniques": [
+      "Provides [6] [Horses]",
+      "[15]% Food is carried over after population increases [in this city]",
+      "[+1 Production] from [Camp] tiles [in this city]",
+      "Limited to [4] per Civilization"
+    ]
+  }
 ]
