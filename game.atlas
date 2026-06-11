@@ -1,96 +1,97 @@
+
 game.png
-size: 2048, 512
+size: 2048, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Cavalry Barracks
   rotate: false
   xy: 4, 4
-  size: 128, 128
-  orig: 128, 128
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Equestrian Center
   rotate: false
-  xy: 140, 4
-  size: 128, 128
-  orig: 128, 128
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Equine Breeding Grounds
   rotate: false
-  xy: 276, 4
-  size: 128, 128
-  orig: 128, 128
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Genetic Horse Breeding Center
   rotate: false
-  xy: 412, 4
-  size: 128, 128
-  orig: 128, 128
+  xy: 328, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Grand Stable
   rotate: false
-  xy: 548, 4
-  size: 128, 128
-  orig: 128, 128
+  xy: 436, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Horse Market
   rotate: false
-  xy: 684, 4
-  size: 128, 128
-  orig: 128, 128
+  xy: 544, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Horse Pulled Wagon
   rotate: false
-  xy: 820, 4
-  size: 128, 128
-  orig: 128, 128
+  xy: 652, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Horse Ranch
   rotate: false
-  xy: 956, 4
-  size: 128, 128
-  orig: 128, 128
+  xy: 760, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Horse Supply Depot
   rotate: false
-  xy: 1092, 4
-  size: 128, 128
-  orig: 128, 128
+  xy: 868, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Imperial Riding School
   rotate: false
-  xy: 1228, 4
-  size: 128, 128
-  orig: 128, 128
+  xy: 976, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mounted Parade Plaza
   rotate: false
-  xy: 1364, 4
-  size: 128, 128
-  orig: 128, 128
+  xy: 1084, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Royal Breeding Ground
   rotate: false
-  xy: 1500, 4
-  size: 128, 128
-  orig: 128, 128
+  xy: 1192, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Stable Extension
   rotate: false
-  xy: 1636, 4
-  size: 128, 128
-  orig: 128, 128
+  xy: 1300, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
