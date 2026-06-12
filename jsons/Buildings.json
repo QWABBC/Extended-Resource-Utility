@@ -41,10 +41,10 @@
   {
     "name": "Equine Breeding Grounds",
     "food": 3,
-    "percentStatBonus": {"food": 12},
+    "percentStatBonus": {"food": 10},
     "requiredTech": "Horseback Riding",
     "requiredNearbyImprovedResources": ["Horses"],
-    "hurryCostModifier": 20,
+    "hurryCostModifier": 25,
     "uniques": [
       "Provides [3] [Horses]",
       "[+1 Food] per [4] population [in this city]"
@@ -52,7 +52,7 @@
   },
   {
     "name": "Horse Pulled Wagon",
-    "cost": 200,
+    "cost": 220,
     "happiness": 3,
     "percentStatBonus": {"gold": 10},
     "requiredTech": "Currency",
@@ -66,14 +66,14 @@
   {
     "name": "Equestrian Center",
     "culture": 6,
-    "specialistSlots": {"Artist": 1},
-    "maintenance": 2,
+    "specialistSlots": {"Artist": 2},
+    "maintenance": 4,
     "requiredTech": "Civil Service",
     "requiredNearbyImprovedResources": ["Horses"],
     "requiredResource": "Horses",
-    "hurryCostModifier": 15,
+    "hurryCostModifier": 18,
     "uniques": [
-      "[+3]% [Culture] from Trade Routes",
+      "[+4]% [Culture] from Trade Routes",
       "[+1 Culture] from [Pasture] tiles [in this city]"
     ]
   },
@@ -97,7 +97,7 @@
     "food": 5,
     "gold": 2,
     "requiredTech": "Military Science",
-    "hurryCostModifier": 15,
+    "hurryCostModifier": 21,
     "uniques": [
       "[+1 Food] [in all cities]",
       "Provides [3] [Horses]",
@@ -108,8 +108,8 @@
     "name": "Mounted Parade Plaza",
     "cost": 240,
     "culture": 3,
-    "happiness": 4,
-    "maintenance": 3,
+    "happiness": 6,
+    "maintenance": 4,
     "requiredTech": "Chivalry",
     "requiredResource": "Horses",
     "uniques": [
@@ -121,12 +121,12 @@
     "cost": 250,
     "production": 4,
     "percentStatBonus": {"food": 10},
-    "maintenance": 5,
+    "maintenance": 6,
     "requiredTech": "Chivalry",
     "requiredNearbyImprovedResources": ["Horses"],
     "requiredResource": "Horses",
     "uniques": [
-      "[5]% Food is carried over after population increases [in this city]",
+      "[8]% Food is carried over after population increases [in this city]",
       "[+1 Production] from [Pasture] tiles [in this city]"
     ]
   },
@@ -150,32 +150,32 @@
     "name": "Imperial Riding School",
     "cost": 340,
     "culture": 4,
-    "percentStatBonus": {"food": 12},
-    "maintenance": 3,
+    "percentStatBonus": {"food": 10},
+    "maintenance": 4,
     "requiredTech": "Military Science",
     "requiredBuilding": "Cavalry Barracks",
     "requiredResource": "Horses",
     "uniques": [
-      "New [Mounted] units start with [15] XP [in this city]",
+      "New [Mounted] units start with [25] XP [in this city]",
       "[+1 Culture] from each Trade Route"
     ]
   },
   {
     "name": "Genetic Horse Breeding Center",
-    "food": 3,
+    "food": 4,
     "science": 2,
-    "happiness": 2,
-    "percentStatBonus": {"food": 15},
-    "specialistSlots": {"Scientist": 2},
-    "maintenance": 7,
+    "happiness": 1,
+    "percentStatBonus": {"food": 10},
+    "specialistSlots": {"Scientist": 3},
+    "maintenance": 9,
     "requiredTech": "Biology",
     "requiredBuilding": "Royal Breeding Ground",
     "hurryCostModifier": 50,
     "uniques": [
       "Provides [4] [Horses]",
       "[10]% Food is carried over after population increases [in this city]",
-      "[+1 Production] from [Camp] tiles [in this city]",
-      "Limited to [4] per Civilization"
+      "[+2 Production] from [Camp] tiles [in this city]",
+      "Limited to [3] per Civilization"
     ]
   },
 
@@ -200,7 +200,7 @@
     "requiredTech": "Iron Working",
     "requiredNearbyImprovedResources": ["Iron"],
     "requiredResource": "Iron",
-    "maintenance": 2,
+    "maintenance": 3,
     "hurryCostModifier": 25,
     "uniques": [
       "[+1 Production] [in all cities]",
@@ -218,13 +218,14 @@
     "hurryCostModifier": 25,
     "uniques": [
       "[+1 Production] from every [Mine]",
-      "Provides [3] [Iron]",
-      "[+4 Production] from every [Workshop] <in this city>"
+      "[+1 Production] from [Mine] tiles [in this city] <in tiles without [River]>",
+      "Provides [2] [Iron]",
+      "[+2 Production] from every [Workshop] <in this city>"
     ]
   },
   {
     "name": "Steel Foundry",
-    "cost": 200,
+    "cost": 210,
     "production": 3,
     "science": 2,
     "requiredTech": "Metal Casting",
@@ -233,7 +234,7 @@
     "maintenance": 2,
     "uniques": [
       "[+1 Science] from [Iron] tiles [in this city]",
-      "[+10]% Production when constructing [Land] units [in this city]",
+      "[+5]% Production when constructing [Land] units [in this city]",
       "Only available <if [Workshop] is constructed>"
     ]
   },
@@ -245,8 +246,8 @@
     "requiredTech": "Metal Casting",
     "requiredBuilding": "Forge",
     "requiredResource": "Iron",
-    "maintenance": 2,
-    "hurryCostModifier": 15,
+    "maintenance": 4,
+    "hurryCostModifier": 17,
     "uniques": [
       "[+1 Production] per [3] population [in this city]",
       "[+5]% Yield from every [Strategic resource] <in this city>"
@@ -254,8 +255,8 @@
   },
   {
     "name": "Weapon Smithery",
-    "production": 4,
-    "science": 3,
+    "production": 3,
+    "science": 2,
     "requiredTech": "Machinery",
     "requiredBuilding": "Armory",
     "requiredResource": "Iron",
@@ -269,12 +270,12 @@
     "name": "Steelworks Forge",
     "cost": 290,
     "production": 5,
-    "percentStatBonus": {"production": 10},
+    "percentStatBonus": {"production": 8},
     "requiredTech": "Steel",
     "requiredBuilding": "Forge",
     "requiredNearbyImprovedResources": ["Iron"],
     "requiredResource": "Iron",
-    "maintenance": 2,
+    "maintenance": 3,
     "uniques": [
       "[+1 Production] from [Iron] tiles [in this city]",
       "[-5]% construction time for [All] improvements <in this city>"
@@ -282,13 +283,14 @@
   },
   {
     "name": "Riverfront Steelworks",
+    "cost": 320,
     "happiness": 2,
-    "percentStatBonus": {"production": 13},
+    "percentStatBonus": {"production": 9},
     "requiredTech": "Steel",
-    "maintenance": 1,
+    "maintenance": 3,
     "uniques": [
-      "Provides [4] [Iron]",
-      "[+2 Production] per every [4] [Happiness]",
+      "Provides [3] [Iron]",
+      "[+2 Production] per every [5] [Happiness]",
       "[+2 Production] from [River] tiles [in this city]",
       "Must have an owned [River] within [2] tiles",
       "Limited to [5] per Civilization"
@@ -318,7 +320,7 @@
     "requiredTech": "Gunpowder",
     "requiredBuilding": "Forge",
     "requiredResource": "Iron",
-    "maintenance": 3,
+    "maintenance": 4,
     "uniques": [
       "[+10]% Production when constructing [Military] units [in this city]",
       "[+1 Production] from every [Workshop]"
@@ -328,7 +330,7 @@
     "name": "Advanced Smelter",
     "production": 5,
     "science": 2,
-    "percentStatBonus": {"production": 10},
+    "percentStatBonus": {"production": 7},
     "requiredTech": "Steam Power",
     "requiredBuilding": "Workshop",
     "requiredResource": "Iron",
@@ -342,47 +344,47 @@
   {
     "name": "Iron Reclamation Plant",
     "production": 6,
-    "science": 5,
-    "gold": 3,
-    "percentStatBonus": {"science": 7},
+    "science": 4,
+    "gold": 2,
+    "percentStatBonus": {"science": 5},
     "specialistSlots": {"Engineer": 2},
     "requiredTech": "Industrialization",
     "requiredResource": "Iron",
     "maintenance": 9,
     "hurryCostModifier": 75,
     "uniques": [
-      "[+8]% [Production] [in this city]",
+      "[+7]% [Production] [in this city]",
       "[+2 Science] from each Trade Route <in this city>"
     ]
   },
   {
     "name": "National Steel Foundry",
-    "production": 4,
+    "production": 6,
     "happiness": 2,
     "requiredTech": "Railroads",
     "requiredBuilding": "Steel Foundry",
     "requiredResource": "Iron",
-    "maintenance": 3,
-    "hurryCostModifier": 25,
+    "maintenance": 5,
+    "hurryCostModifier": 32,
     "uniques": [
-      "[+15]% [Production] [in this city]",
+      "[+10]% [Production] [in this city]",
       "[-10]% construction time for [Railroad] improvements <in this city>"
     ]
   },
   {
     "name": "Iron Waste Recycling Center",
-    "production": 5,
-    "happiness": 3,
+    "production": 7,
+    "happiness": 2,
     "percentStatBonus": {"production": 10},
     "requiredTech": "Ecology",
     "requiredBuilding": "Iron Reclamation Plant",
     "requiredNearbyImprovedResources": ["Iron"],
     "maintenance": 5,
-    "hurryCostModifier": 50,
+    "hurryCostModifier": 55,
     "uniques": [
-      "Provides [4] [Iron]",
-      "[+15]% [Production] from every [Improvement] <in this city>",
-      "[+15]% Production when constructing [Production] buildings [in this city]",
+      "Provides [3] [Iron]",
+      "[+8]% [Production] from every [Improvement] <in this city>",
+      "[+10]% Production when constructing [Production] buildings [in this city]",
       "Limited to [5] per Civilization"
     ]
   },
