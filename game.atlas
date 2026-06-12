@@ -95,3 +95,10 @@ BuildingIcons/Stable Extension
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Titanium
+  rotate: false
+  xy: 1408, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
