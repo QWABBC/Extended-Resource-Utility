@@ -11,7 +11,6 @@
       "Must have an owned [Mine] within [2] tiles"
     ]
   },
-
   {
     "name": "Smithing Works",
     "production": 5,
@@ -32,7 +31,6 @@
       "[+1 Gold] from [Iron] tiles [in this city]"
     ]
   },
-
   {
     "name": "Deep Core Extraction",
     "production": 5,
@@ -52,7 +50,6 @@
       "[+2 Production] from every [Workshop] <in this city>"
     ]
   },
-
   {
     "name": "Steel Foundry",
     "cost": 210,
@@ -70,7 +67,6 @@
       "Only available <if [Workshop] is constructed>"
     ]
   },
-
   {
     "name": "Forge Annex",
     "production": 5,
@@ -88,7 +84,6 @@
       "[+5]% Yield from every [Strategic resource] <in this city>"
     ]
   },
-
   {
     "name": "Weapons Workshop",
     "production": 5,
@@ -104,7 +99,6 @@
       "[+10]% Production when constructing [Land] units [in this city]"
     ]
   },
-
   {
     "name": "Integrated Steelworks",
     "cost": 290,
@@ -123,5 +117,5 @@
       "[+1 Production] from [Iron] tiles [in this city]",
       "[-5]% construction time for [All] improvements <in this city>"
     ]
-  }
+  },
 ]
