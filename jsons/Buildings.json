@@ -51,7 +51,6 @@
     "maintenance": 4,
     "hurryCostModifier": 35,
     "uniques": [
-      "Can only be built <after discovering [Industrialization]>",
       "[+8]% Production when constructing [Factory] buildings [in this city]",
       "[+1 Science] from [Mine] tiles [in this city]"
     ]
@@ -97,6 +96,7 @@
     "maintenance": 6,
     "hurryCostModifier": 35,
     "uniques": [
+      "Can only be built <after discovering [Industrialization]>",
       "[+2 Production] per [10] population [in this city]",
       "[-10]% Culture cost of natural border growth [in this city]"
     ]
@@ -160,6 +160,7 @@
     "maintenance": 4,
     "hurryCostModifier": 39,
     "uniques": [
+      "Can only be built <after discovering [Industrialization]>",
       "[+8]% Production when constructing [Factory] buildings [in this city]",
       "[+1 Science] from [Mine] tiles [in this city]"
     ]
