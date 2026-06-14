@@ -1,175 +1,127 @@
 [
   {
-    "name": "Horse Ranch",
-    "cost": 100,
-    "food": 2,
-    "percentStatBonus": {"food": 5},
-    "requiredTech": "Animal Husbandry",
-    "requiredResource": "Horses",
+    "name": "Iron Extraction Site",
+    "cost": 120,
+    "production": 3,
+    "requiredTech": "Mining",
+    "requiredResource": "Iron",
     "maintenance": 2,
     "uniques": [
-      "[+1 Gold] from [Pasture] tiles [in this city]"
+      "[+1 Production] from [Mine] tiles [in this city]",
+      "Must have an owned [Mine] within [2] tiles"
     ]
   },
+
   {
-    "name": "Livestock Market",
-    "gold": 2,
-    "requiredTech": "Horseback Riding",
-    "specialistSlots": {"Merchant": 1},
-    "requiredBuilding": "Market",
-    "requiredResource": "Horses",
-    "hurryCostModifier": 7,
+    "name": "Smithing Works",
+    "production": 5,
+    "percentStatBonus": {
+      "production": 4
+    },
+    "specialistSlots": {
+      "Engineer": 1
+    },
+    "requiredTech": "Iron Working",
+    "requiredNearbyImprovedResources": [
+      "Iron"
+    ],
+    "requiredResource": "Iron",
+    "maintenance": 2,
+    "hurryCostModifier": 22,
     "uniques": [
-      "[+1 Gold] from each Trade Route",
-      "[+1 Food] from [Horses] tiles [in this city]"
+      "[+1 Gold] from [Iron] tiles [in this city]"
     ]
   },
+
   {
-    "name": "Expanded Stables",
-    "cost": 175,
-    "food": 4,
-    "gold": 2,
+    "name": "Deep Core Extraction",
+    "production": 5,
+    "percentStatBonus": {
+      "production": 5
+    },
+    "requiredTech": "Iron Working",
+    "requiredBuilding": "Iron Extraction Site",
+    "requiredNearbyImprovedResources": [
+      "Iron"
+    ],
     "maintenance": 4,
-    "requiredTech": "Horseback Riding",
-    "requiredBuilding": "Stable",
-    "requiredResource": "Horses",
-    "uniques": [
-      "[+1 Food] from every [Stable] <in this city>"
-    ]
-  },
-  {
-    "name": "Equine Breeding Facility",
-    "food": 4,
-    "percentStatBonus": {"food": 5},
-    "requiredTech": "Horseback Riding",
-    "requiredNearbyImprovedResources": ["Horses"],
     "hurryCostModifier": 25,
     "uniques": [
-      "Provides [2] [Horses]",
-      "[+1 Food] per [4] population [in this city]"
+      "[+1 Production] from [Mine] tiles [in this city] <in tiles without [River]>",
+      "Provides [2] [Iron]",
+      "[+2 Production] from every [Workshop] <in this city>"
     ]
   },
+
   {
-    "name": "Wagon Transport Yard",
+    "name": "Steel Foundry",
     "cost": 210,
-    "happiness": 3,
-    "percentStatBonus": {"gold": 3},
-    "requiredTech": "Currency",
-    "requiredResource": "Horses",
+    "production": 3,
+    "science": 2,
+    "requiredTech": "Metal Casting",
+    "requiredNearbyImprovedResources": [
+      "Iron"
+    ],
+    "requiredResource": "Iron",
+    "maintenance": 3,
     "uniques": [
-      "[+2 Gold] from each Trade Route",
-      "[+1 Gold] from every [Road]",
-      "[+1 Gold] from every [Railroad] <after discovering [Railroads]>"
+      "[+1 Science] from [Iron] tiles [in this city]",
+      "[+5]% Production when constructing [Land] units [in this city]",
+      "Only available <if [Workshop] is constructed>"
     ]
   },
+
   {
-    "name": "Equestrian Grounds",
-    "culture": 6,
-    "specialistSlots": {"Artist": 2},
-    "maintenance": 4,
-    "requiredTech": "Civil Service",
-    "requiredNearbyImprovedResources": ["Horses"],
-    "requiredResource": "Horses",
+    "name": "Forge Annex",
+    "production": 5,
+    "science": 1,
+    "specialistSlots": {
+      "Engineer": 2
+    },
+    "requiredTech": "Metal Casting",
+    "requiredBuilding": "Forge",
+    "requiredResource": "Iron",
+    "maintenance": 5,
     "hurryCostModifier": 19,
     "uniques": [
-      "[+5]% [Culture] from Trade Routes",
-      "[+1 Culture] from [Pasture] tiles [in this city]"
+      "[+2 Production] per [7] population [in this city]",
+      "[+5]% Yield from every [Strategic resource] <in this city>"
     ]
   },
+
   {
-    "name": "Reinforced Stable Complex",
-    "cost": 320,
-    "production": 4,
-    "happiness": 1,
-    "percentStatBonus": {"production": 5},
-    "maintenance": 4,
-    "requiredTech": "Military Science",
-    "requiredBuilding": "Expanded Stables",
-    "requiredResource": "Horses",
+    "name": "Weapons Workshop",
+    "production": 5,
+    "percentStatBonus": {
+      "science": 5
+    },
+    "requiredTech": "Machinery",
+    "requiredBuilding": "Armory",
+    "requiredResource": "Iron",
+    "maintenance": 2,
+    "hurryCostModifier": 10,
     "uniques": [
-      "[+10]% Production when constructing [Mounted] units [in this city]",
-      "[-2]% construction time for [All] improvements"
+      "[+10]% Production when constructing [Land] units [in this city]"
     ]
   },
+
   {
-    "name": "Advanced Breeding Facility",
-    "food": 5,
-    "gold": 2,
-    "requiredTech": "Military Science",
-    "hurryCostModifier": 20,
+    "name": "Integrated Steelworks",
+    "cost": 290,
+    "production": 5,
+    "percentStatBonus": {
+      "production": 8
+    },
+    "requiredTech": "Steel",
+    "requiredBuilding": "Forge",
+    "requiredNearbyImprovedResources": [
+      "Iron"
+    ],
+    "requiredResource": "Iron",
+    "maintenance": 3,
     "uniques": [
-      "Provides [2] [Horses]",
-      "Limited to [3] per Civilization"
-    ]
-  },
-  {
-    "name": "Cavalry Assembly Plaza",
-    "cost": 230,
-    "culture": 3,
-    "happiness": 4,
-    "maintenance": 5,
-    "requiredTech": "Chivalry",
-    "requiredResource": "Horses"
-  },
-  {
-    "name": "Mounted Logistics Depot",
-    "cost": 250,
-    "production": 4,
-    "percentStatBonus": {"food": 8},
-    "maintenance": 6,
-    "requiredTech": "Chivalry",
-    "requiredNearbyImprovedResources": ["Horses"],
-    "requiredResource": "Horses",
-    "uniques": [
-      "[10]% Food is carried over after population increases [in this city]",
-      "[+1 Production] from [Pasture] tiles [in this city]"
-    ]
-  },
-  {
-    "name": "Cavalry Training Barracks",
-    "production": 3,
-    "happiness": 2,
-    "cityStrength": 9,
-    "cityHealth": 12,
-    "maintenance": 8,
-    "requiredTech": "Gunpowder",
-    "requiredBuilding": "Expanded Stables",
-    "requiredResource": "Horses",
-    "hurryCostModifier": 23,
-    "uniques": [
-      "New [Mounted] units start with [15] XP [in this city]",
-      "[-3]% Culture cost of natural border growth [in this city]",
-      "[+2 Gold] from [Pasture] tiles [in this city]"
-    ]
-  },
-  {
-    "name": "Military Cavalry Academy",
-    "cost": 340,
-    "culture": 4,
-    "maintenance": 4,
-    "requiredTech": "Military Science",
-    "requiredBuilding": "Cavalry Training Barracks",
-    "requiredResource": "Horses",
-    "uniques": [
-      "New [Mounted] units start with [30] XP [in this city]"
-    ]
-  },
-  {
-    "name": "Genetic Equine Laboratory",
-    "food": 4,
-    "science": 1,
-    "happiness": 1,
-    "percentStatBonus": {"food": 10},
-    "specialistSlots": {"Scientist": 2},
-    "maintenance": 9,
-    "requiredTech": "Biology",
-    "requiredBuilding": "Advanced Breeding Facility",
-    "hurryCostModifier": 50,
-    "uniques": [
-      "Provides [3] [Horses]",
-      "[15]% Food is carried over after population increases [in this city]",
-      "[+2 Production] from [Camp] tiles [in this city]",
-      "Limited to [3] per Civilization"
+      "[+1 Production] from [Iron] tiles [in this city]",
+      "[-5]% construction time for [All] improvements <in this city>"
     ]
   }
 ]
